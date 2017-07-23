@@ -1,0 +1,635 @@
+body{
+	background-color: #f7f7f7;
+}
+.show-grid {
+    margin-bottom: 15px;
+}
+.sectionatas{
+	font-family: Almendra;
+	font-weight: 400;
+}
+.ortu{
+	position: relative;
+	height: auto;
+}
+
+.menuatas>li{
+	padding: 10px 30px;	cursor: pointer;}
+.menutas>li a !important{
+	color: black;
+	text-decoration: none;
+}
+.list a:hover{
+	color: #119547;
+	text-decoration: none;
+}
+.list a{
+	color:black;
+
+}
+.social-media-plugin{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	max-width: 160px;
+	min-width: 160px;
+	min-height: 50px;
+}
+.social-media-plugins>div{
+	min-height: 50px;
+	background-position: center !important;
+}
+.ok{
+	background-color: #f7f7f7;
+	color: #4C4C4D;
+}
+
+.social-media-plugin div{
+	height: 50px;
+	line-height: 20px;
+}
+.social-media-plugin div:nth-child(1),.social-media-plugins div:nth-child(1){
+	background:url(../img/iconinsta.png);
+		background-size: 48px;
+	background-repeat: no-repeat;
+}
+.social-media-plugin div:nth-child(2),.social-media-plugins div:nth-child(2){
+	background:url(../img/icontwit.png);
+	background-size: 48px;
+	background-repeat: no-repeat;
+}
+.social-media-plugin div:nth-child(3),.social-media-plugins div:nth-child(3){
+	background:url(../img/iconfb.png);
+		background-size: 48px;
+	background-repeat: no-repeat;
+}
+.social-media-plugin div:nth-child(4),.social-media-plugins div:nth-child(3){
+	background:url(../img/play.png);
+		background-size: 48px;
+	background-repeat: no-repeat;
+}
+.LogoGede h2{
+	color: #00923F;
+	font-family: Almendra;
+	font-weight: 400;
+	font-size: 13pt;
+}
+
+.menuatas{
+	color: #5E5E5F;
+	text-transform: lowercase;
+	font-weight: 600;
+	font-size: 15pt;
+	padding-top: 0px;
+	font-family: Catamaran;
+	font-weight: 400;
+
+}
+.menu p{
+	color: #5E5E5F;
+	text-transform: lowercase;
+	font-weight: 100;
+	font-family: Catamaran;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+.ker{
+	font-weight: 100;
+	font-family: Catamaran;
+}
+.Namamenu,.menuss{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-family: Montserrat;
+}
+.Namamenu{
+	font-size: 30px;
+}
+.aboutus{
+	font-weight: 100;
+	font-family: Catamaran;
+	color: #FFFFFF;
+}
+.menuatas .active,.Namamenu,.menuss{
+	color:#119547;
+}
+.menuatas .promo,.other{
+	color: #F15A40;
+}
+.other{
+
+}
+
+.kedua .content{
+	vertical-align: middle;
+	padding-top: 90px;
+	background-color: #f7f7f7;
+}
+.kedua{
+	height: auto;
+}
+.kedua>div{
+	overflow: hidden;
+}
+.listMenu,.imageContainer,.BannerGede,.eventt,.generalteam{
+	position: relative;
+}
+
+.heade{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #FFFFFF;
+}
+.headegalery{
+	background-color: #2F302F;
+	padding-bottom: 50px;
+}
+.kedua>div{
+	height: auto;
+}
+
+.headegalery>.gallery{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 100%;
+}
+
+.events{
+
+	margin-bottom: 80px;
+}
+.BannerGede{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+}
+.BannerGede .carousel{
+
+	width: 100% !important;
+	height: inherit !important;
+}
+
+.item>img{
+	width: 100% !important;
+}
+.max>div,.max{
+	padding: 0px !important;
+}
+.galery{
+	font-weight: 400;
+	font-family: Catamaran;
+	color: #FFFFFF;
+	z-index: 1000;
+	position: absolute;
+	left: 47%;
+	letter-spacing: 0.05em;
+	padding-top: 15px;
+}
+.gallery>div>div.row{
+	margin: 0px !important;
+}
+.event{
+	font-weight: 400;
+	font-family: Catamaran;
+	text-transform: lowercase;
+	color: #4C4C4D;
+	padding-left: 10px;
+}
+.myborder{
+	border-bottom: 3px solid #cccccc;
+}
+.tanda{
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	bottom: -30px;
+	left: 48%;
+	margin: auto;
+	background-color: #000000;
+	border-radius: 50%;
+	z-index: 900;
+}
+
+.last{
+	background-color: #119547;
+	color: #FFFFFF;
+	font-family: Catamaran;
+	position: relative;
+	font-weight: 100;
+}
+
+.last .garisgajelas{
+	position: absolute;
+	top: 35%;
+	left: 49%;
+	z-index: 999;
+	height: 375px;
+
+}
+.bullet{
+	border-radius: 50%;
+	height: 100px;
+	background-color: #FFFFFF;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.pulls{
+	font-family: Catamaran;
+	font-weight:100;
+	color: #FFFFFF;
+}
+.line{
+	border-bottom: 5px solid #FFFFFF;
+	padding-top: 50px;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+/* Image Box Style */
+.box{
+	position: relative;
+}
+ .box img {
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
+ .box .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;
+		transition: all 300ms ease-out;
+	left: 0;
+	top: 0;
+}
+
+/** Caption 3: Fade **/
+ .box .fade-caption{
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	padding: 15px;
+}
+
+/** Fade Caption :hover Behaviour **/
+ .box:hover .fade-caption,  .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+#menu1{
+	background:url("../img/lingkaran1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35px;
+	background-color: #F15A40;
+}
+#menu2{
+	background:url("../img/lingkaran2.png");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35px;
+	background-color: #5AC6CD;
+}
+#menu3{
+	background:url("../img/lingkaran3.png");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35px;
+	background-color: #F9A97B;
+}
+#menu4{
+	background:url("../img/bangke.png");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50px;
+	background-color: #F46E71;
+}
+
+#menu5{
+		background:url("../img/asubikinsusah.png");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35px;
+	background-color: #D5D55A;
+}
+.menu button{
+	background-color: #cccccc;
+}
+.navbar-toggle .icon-bar{
+	background-color: #FFFFFF;
+}
+.para{
+	    letter-spacing: 0.09em;
+}
+
+/*SCREEN PROTOCOL*/
+@media (min-width: 1025px){
+	.menu p{
+		    font-size: 12pt !important;				font-weight: 100;				letter-spacing: 1px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bullet{
+    border-radius: 50%;
+    height: 85px !important;
+    background-color: #FFFFFF;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+  }
+  .kedua .content{
+  	padding: 70px 0px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.ourteambawah{
+		background: #119547 !important;
+	}
+	.LogoGede h2{
+		font-size: 40px !important;
+	}
+	.listMenu,.listMenu>div{
+		padding: 0px !important;
+	}
+	.container{
+		width: 100% !important;
+	}
+  .menu p{
+  	text-align: justify !important;
+  	    font-size: 0.95em !important;
+  }
+  .last p{
+  	text-align: justify !important;
+  	font-size: 1.1em !important;
+  }
+  .BannerGede{
+	max-height:700px;
+	min-height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+  }
+  .item>img{
+	width: 100% !important;
+  }
+  .pulls{
+  	text-align: justify !important;
+  	font-size: 0.8em !important;
+  }
+  .ker{
+  	text-align: justify !important;
+  	font-size: 1.1em !important;
+  }
+  .heade{
+  	font-size: 1em !important;
+  }
+  .social-media-plugin div:nth-child(1),.social-media-plugins div:nth-child(1){
+	background:url(../img/iconinsta.png);
+		background-size: 64px;
+	background-repeat: no-repeat;
+	}
+	.social-media-plugin div:nth-child(2),.social-media-plugins div:nth-child(2){
+		background:url(../img/icontwit.png);
+		background-size: 64px;
+		background-repeat: no-repeat;
+	}
+	.social-media-plugin div:nth-child(3),.social-media-plugins div:nth-child(3){
+		background:url(../img/iconfb.png);
+			background-size: 64px;
+		background-repeat: no-repeat;
+	}
+	.bullet{
+		height: 150px !important;
+	}
+	#uc li{
+		    font-size: 3em !important;
+	}
+	body>.container-fluid>.container-fluid{
+		margin-right: -15px;
+    	margin-left: -15px;
+    	padding: 0px;
+	}
+	#uc{
+		padding: 0px !important;
+	}
+	.navbar-toggle{
+		width: 100px;
+    	height: 100px;
+	}
+	.navbar-toggle .icon-bar{
+		width: 80% !important;
+		margin:auto;
+		height: 10px;
+	}
+	.para{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
+@media (max-width: 767px) {
+	.para{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	.Namamenu{
+		margin-top: 15px !important;
+	}
+	.ourteambawah{
+		background: #119547 !important;
+		color: #FFFFFF !important;
+	}
+	.LogoGede h2{
+		font-size: 40px !important;
+	}
+	body>.container-fluid>.container-fluid{
+		margin-right: -15px;
+    	margin-left: -15px;
+    	padding: 0px;
+	}
+	.listMenu,.listMenu>div {
+		padding: 0px !important;
+	}
+	#uc li{
+		    font-size: 3em !important;
+	}
+	#uc{
+		padding: 0px !important;
+	}
+	.bullet{
+		height: 150px !important;
+	}
+	.social-media-plugin div:nth-child(1),.social-media-plugins div:nth-child(1){
+	background:url(../img/iconinsta.png);
+		background-size: 32px;
+	background-repeat: no-repeat;
+
+	}
+
+	.social-media-plugin div:nth-child(2),.social-media-plugins div:nth-child(2){
+		background:url(../img/icontwit.png);
+		background-size: 32px;
+		background-repeat: no-repeat;
+	}
+	.social-media-plugin div:nth-child(3),.social-media-plugins div:nth-child(3){
+		background:url(../img/iconfb.png);
+			background-size: 32px;
+		background-repeat: no-repeat;
+	}
+	  .heade{
+	  	font-size: 1em !important;
+	  }
+	  .menu p{
+	  	text-align: justify !important;
+	  	    font-size: 0.8em !important;
+	  }
+	  .ker{
+	  	text-align: justify !important;
+	  	font-size: 0.8em !important;
+	  }
+	  .last p{
+	  	text-align: justify !important;
+	  	/*font-size: 0.6em !important;*/
+	  }
+	  .pulls{
+	  	text-align: justify !important;
+	  	/*font-size: 0.8em !important;*/
+	  }
+	  .events {
+	    padding-bottom: 0px;
+	    margin-bottom: 20px;
+	  }
+	  .headegalery {
+	    padding-bottom: 0px !important;
+	 }
+	 .tanda,.galery{
+	 	left: 42% !important;
+	 }
+	 .galery{
+	 	font-size: 3em !important;
+	 	left: 48% !important;
+	 }
+	 p{
+	 	text-align: justify !important;
+	 }
+	 .Namamenu {
+	    font-size: 12px !important;
+	 }
+}
+/*SCREEN PROTOCOL*/
+
+
+
+/*Ourteam*/
+.ourteambawah{
+
+	background-size: cover;	background-color: #f7f7f7;
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+}
+.ourteamatas,.ourteambawah{
+	position: relative;
+}
+.ourteamatas>.founder{
+	padding-top: 5%;
+}
+.bagian-putih{
+	margin-top: 100px;
+	letter-spacing: 0.09em;
+}
+.ourteambawah img{
+	margin-top:83px;
+}.ourteambawah>.founder{	margin-top:163px;}
+
+/*general team*/
+.generalteam{
+	background:#2B9843;
+	color: #FFFFFF;
+}
+.generalteam p{
+	font-weight: 100;
+	font-family: Catamaran;
+	font-size: 16px;
+}
+.generalteam img{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.generalteam h1{
+	font-family: Montserrat;
+}
+/*end*/
+
+/*catering*/
+.cateringpdf{
+	background-color: #F15832;
+	margin-bottom: 50px;
+	padding: 15px 15px;
+	text-align: center;
+}
+.cateringpdf span{
+	color: #ffffff;
+}
+.cateringpdf .lefts{
+	font-size: 20pt;
+	font-family:Montserrat;
+}
+.cateringpdf .rights{
+	font-family:Montserrat;
+	font-size: 20px;
+	line-height: 50px;
+}
+.cateringpdf .centers a{
+	vertical-align: middle;
+	line-height: 50px;
+
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;	color: white;
+}
+/*end*/
+
+.hunggry{
+	color: #2B9843;
+
+	font-family:Montserrat;
+	text-transform: lowercase;
+}
+.sosmedcontainer .social-media-plugin{
+	position: static !important;
+	max-width: 300px;
+	min-height: 200px;
+	margin-top: 15px;
+}
+.sosmedcontainer .social-media-plugin div{
+	background-size: 70px !important;
+	background-position: center;
+	height: 100px;
+}
+.eres{
+	font-family: Catamaran;
+	font-weight: 400;
+	color: #444A4A;
+}
+
+/*end*/
+
+.fixed{
+	position:fixed;
+    top:0;
+		z-index: 999;
+		background-color: #f7f7f7;
+}
+
+.map{
+	height: 400px;
+}

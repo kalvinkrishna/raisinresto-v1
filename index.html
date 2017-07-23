@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/customku.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Almendra">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Catamaran">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="js/animatescroll.min.js"></script>
+  	<script type="text/javascript">
+          	$(document).ready(function(){
+          		$('.tanda').click(function(){
+          			alert('index: '+$(this).index());
+          		});
+          	});
+          </script>
+	
+          
+</head>
+<body>	<nav class="navbar navbar-default navbar-fixed-top hidden-lg hidden-md hidden-sm">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" style='top:10px; right:20px;' class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Raisin Resto</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class='container-fluid'>
+		<div class='row'>
+				<div class='LogoGede'>
+					<div class='center-block ortu col-md-8 col-lg-6 hidden-xs' style="float:none;">
+						<br>
+						<img src="img/logobig.png" class='img-responsive center-block col-md-8 col-xs-12' style="float:none;">
+					</div>
+					<div class='center-block ortu col-md-8 col-lg-6 visible-xs' style="float:none; padding-top:50px;">
+						<br>
+						<img src="img/logobig.png" class='img-responsive center-block col-md-8 col-xs-12' style="float:none;">
+					</div>
+				</div>
+				<div class='social-media-plugin hidden-xs hidden-sm'>
+					<div class="col-md-4"></div>
+					<div class="col-md-4"></div>
+					<div class="col-md-4"></div>
+				</div>
+		</div>
+		<div class='container-fluid'>
+
+			<div class='center-block menu' style="margin-top:30px;">
+				<div class='hidden-md hidden-lg pull-left col-xs-12'>
+
+					<div class='social-media-plugins'>
+						<div class="col-xs-4 col-sm-4"></div>
+						<div class="col-xs-4 col-sm-4"></div>
+						<div class="col-xs-4 col-sm-4"></div>
+					</div>
+				</div>
+
+
+     			 <div class="collapse col-xs-12" id="collapse">
+				  <div class="row">
+				  <style type="text/css">
+				  		#uc li{
+				  			display: block !important;
+				  			background-color: #cccccc;
+				  		}
+				  		#uc li:hover{
+				  			background-color: #F9FAFB;
+				  			cursor: pointer;
+				  		}
+				  		.navbar-toggle{
+				  			margin: 0px;
+				  		}
+				  </style>
+
+
+				  </div>
+				</div>
+
+
+				<ul class="list-inline menuatas text-center visible-md visible-lg col-md-12">
+
+          <li class='list'><a onclick="$('#menus').animatescroll();">menu</a></li>
+
+          <li class='list'><a onclick="$('#gallerys').animatescroll();">gallery</a></li>
+
+          <li class='list'><a onclick="$('#events').animatescroll();">events</a></li>
+
+          <li class='list'><a onclick="$('#aboutus').animatescroll();">about us</a></li>
+
+          <li class='list'><a onclick="$('#contactus').animatescroll();">contact us</a></li>
+
+          <li>catering</li>
+
+            <li class='promo'>promo</li>
+
+
+
+				</ul>
+
+
+
+			</div>
+		</div>
+		<br>
+		<div  class='row imageContainer'>
+				<div class='utama  hidden-sm hidden-xs'>
+				 <div class='box col-md-4 col-xs-12 col-sm-12' style="padding:0px;">
+				 	<img src="img/Photo 10-03-16 08.43.33.jpg" class='img-responsive'>
+					<span class="caption fade-caption">
+						<h3>Fade Caption</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					</span>
+				 </div>
+
+
+				</div>
+				<div class='utama col-md-4 col-xs-12 col-sm-12 hidden-md hidden-lg'>
+				  <div class='box'>
+						<img src="img/Photo 10-03-16 08.43.33.jpg" class='img-responsive center-block'>
+						<span class="caption fade-caption">
+							<h3>Fade Caption</h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						</span>
+				   </div>
+				</div>
+				<div class='container-fluid hidden-xs kedua col-md-8 text-center' style="padding:0px;">
+					<div class='col-md-12 col-xs-12 hidden-sm max'>
+							<div class='col-md-3 box'>
+								<img src="img/Photo 10-03-16 08.43.20.jpg" class='img-responsive'>
+								<span class="caption fade-caption">
+									<h3>Fade Caption</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+									sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</span>
+							</div>
+							<div class='col-md-3'>
+								<div class='content'>
+									<h4 class='sectionatas'>be healthy</h4>
+								</div>
+
+
+							</div>
+							<div class='col-md-3 box'>
+								<img src="img/Photo 04-03-16 21.15.17.jpg" class='img-responsive'>
+								<span class="caption fade-caption">
+									<h3>Fade Caption</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+									sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</span>
+							</div>
+							<div class='col-md-3 '>
+								<div class='content'>
+									<h4 class='sectionatas'>be healthy</h4>
+									</div>
+							</div>
+					</div>
+					<div class='col-md-12 col-xs-12 hidden-sm max'>
+						<div class='col-md-3 '>
+							<div class='content'>
+								<h4 class='sectionatas'>so crunchy</h4>
+							</div>
+						</div>
+							<div class='col-md-3 box'>
+													<img src="img/Photo 14-03-16 19.03.28.jpg" class='img-responsive'>
+								<span class="caption fade-caption">
+									<h3>Fade Caption</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+									sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</span>
+							</div>
+						<div class='col-md-3 '>
+								<div class='content'>
+									<h4 class='sectionatas'>so crunchy</h4>
+								</div>
+						</div>
+							<div class='col-md-3 box'>
+													<img src="img/Photo 14-03-16 19.03.28.jpg" class='img-responsive'>
+								<span class="caption fade-caption">
+									<h3>Fade Caption</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+
+									sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</span>
+							</div>
+
+
+					</div>
+				</div>
+				<div id='menu1' class='tanda'></div>
+		</div>
+	<div class='ok row' id='menus'>
+
+		<div class='text-center'>
+			<br>
+			<h3>Our Special Menu</h3>
+		</div>
+	<div class='listMenu container-fluid'>
+
+		<div class='container menus'>
+			<div class='row col-md-12'>
+				<div class='col-md-5 col-md-offset-1'>
+					<img src="img/Photo 04-03-16 21.15.10.jpg" class='img-responsive col-md-12'>
+				</div>
+				<div class='col-md-6 menu'>
+					<div class='col-md-12 col-xs-12'>
+						<h3 class='Namamenu'>Beef Taiwan Marinated</h3>
+					</div>
+					<div class='col-md-12 col-xs-12'>
+						<p class='text-left'>
+							The menu takes a contemporary twist on classic, home-style cooking with moderate prices. Seasoned Belgian Chef Benoit Claeys prepares a diverse range of dishes which include not only bistro favorites such as Salad Nicoise, Roast Chicken Rotisserie and Steak Frites, but also European-style curry, a selection of simple but hearty pasta dishes, even Asian inspired Oriental Chicken Salad that brings the palate a little closer to home. And then too are the desserts: a variety of tarts with the freshest tropical fruits in season, and of course, Chef Benoit Claeys' legendary Mille-Feuille.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class='row col-md-12'>
+			<!--Muncul Kalau Layar Gede-->
+				<div class='col-md-5 col-md-offset-1 menu hidden-sm hidden-xs'>
+					<div class='col-md-12 col-xs-12 text-right'>
+						<h3 class='Namamenu'>Beef Taiwan Marinated</h3>
+					</div>
+					<div class='col-md-12 col-xs-12'>
+						<p class='text-right'>
+							The menu takes a contemporary twist on classic, home-style cooking with moderate prices. Seasoned Belgian Chef Benoit Claeys prepares a diverse range of dishes which include not only bistro favorites such as Salad Nicoise, Roast Chicken Rotisserie and Steak Frites, but also European-style curry, a selection of simple but hearty pasta dishes, even Asian inspired Oriental Chicken Salad that brings the palate a little closer to home. And then too are the desserts: a variety of tarts with the freshest tropical fruits in season, and of course, Chef Benoit Claeys' legend-ary Mille-Feuille.
+						</p>
+					</div>
+				</div>
+
+				<div class='col-md-6'>
+					<img src="img/Photo 12-03-16 09.12.16.jpg" class='img-responsive col-md-12'>
+				</div>
+				<!--Muncul Kalau Layar Kecil-->
+				<div class='col-md-6 menu hidden-md hidden-lg'>
+					<div class='col-md-12 col-xs-12'>
+						<h3 class='Namamenu'>Beef Taiwan Marinated</h3>
+					</div>
+					<div class='col-md-12 col-xs-12'>
+						<p class='text-left'>
+							The menu takes a contemporary twist on classic, home-style cooking with moderate prices. Seasoned Belgian Chef Benoit Claeys prepares a diverse range of dishes which include not only bistro favorites such as Salad Nicoise, Roast Chicken Rotisserie and Steak Frites, but also European-style curry, a selection of simple but hearty pasta dishes, even Asian inspired Oriental Chicken Salad that brings the palate a little closer to home. And then too are the desserts: a variety of tarts with the freshest tropical fruits in season, and of course, Chef Benoit Claeys' legend-ary Mille-Feuille.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class='row col-md-12'>
+				<div class='col-md-5 col-md-offset-1'>
+					<img src="img/Photo 16-03-16 15.13.17.jpg" class='img-responsive col-md-12'>
+				</div>
+				<div class='col-md-6 menu'>
+					<div class='col-md-12 col-xs-12'>
+						<h3 class='Namamenu'>Beef Taiwan Marinated</h3>
+					</div>
+					<div class='col-md-12 col-xs-12'>
+						<p class='text-left'>
+							The menu takes a contemporary twist on classic, home-style cooking with moderate prices. Seasoned Belgian Chef Benoit Claeys prepares a diverse range of dishes which include not only bistro favorites such as Salad Nicoise, Roast Chicken Rotisserie and Steak Frites, but also European-style curry, a selection of simple but hearty pasta dishes, even Asian inspired Oriental Chicken Salad that brings the palate a little closer to home. And then too are the desserts: a variety of tarts with the freshest tropical fruits in season, and of course, Chef Benoit Claeys' legend-ary Mille-Feuille.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class='pull-right hidden-xs hidden-sm'>
+				<h3 class='other'>Other Menu...</h3>
+			</div>
+			<div class='hidden-lg hidden-md' style="margin:0px;">
+				<h1 class='other text-center' style="margin:0px; padding-bottom:60px; padding-top:0px;">Other Menu...</h1>
+			</div>
+		</div>
+		<div class='cateringpdf row'>      <div class="col-md-12">
+        <div class="col-md-4">
+          <span class='lefts pull-left visible-md visible-lg'>
+
+            Delicious healthy catering ?
+
+          </span>
+        </div>
+        <div class="col-md-4">
+          <span class='centers visible-md visible-lg '>
+
+    				<a href="..">
+
+    					catalog.pdf
+
+    				</a>
+
+    			</span>
+        </div>
+        <div class="col-md-4">
+          <span class='rights pull-right hidden-xs hidden-sm'>
+
+            Download , Read and Call us
+
+          </span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+			<div class='visible-xs visible-sm container text-center' style="color:#FFFFFF;">
+				<h1>
+				Delicious healthy catering ?
+			</h1>
+			<h1>
+				<a href="..">
+					catalog.pdf
+				</a>
+			</h1>
+			<h1>
+				Download , Read and Call us
+			</h1>
+			</div>
+
+
+
+
+
+		</div>
+			<div id='menu2' class='tanda'></div>
+		</div><!--End List Menu-->
+		</div>
+
+		<!--Start Raisin Image Banner-->
+
+		<div class='BannerGede row' id='gallerys'>
+
+			<h2 class='galery text-center'>
+				gallery
+			</h2>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators hidden-md hidden-lg">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+
+		  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="img/Photo 25-02-16 16.02.03.jpg" class='img-responsive'>
+
+
+			    </div>
+			    <div class="item">
+			     <img src="img/Photo 25-02-16 16.02.34.jpg" class='img-responsive'>
+
+
+			    </div>
+			    <div class="item">
+			     <img src="img/Photo 25-02-16 16.03.14.jpg" class='img-responsive'>
+
+
+			    </div>
+
+			    <div class="item">
+			     <img src="img/Photo 28-02-16 10.09.02.jpg" class='img-responsive'>
+
+
+			    </div>
+
+
+
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+					<div id='menu3' class='tanda'></div>
+	</div>
+	<br>
+	<br>
+	
+	<!--Event-->
+	<div class='ok row eventt' id='events'>
+
+		<br>
+		<h2 class='text-center event'>Event</h2>
+		<div class='container events' >
+
+
+			<div class='row col-md-12'>
+				<div class='col-md-6'>
+					<img src="img/ayam.png" class='col-md-12 col-xs-12 img-responsive'>
+				</div>
+				<div class='col-md-6'>
+					<div class='col-md-12 col-xs-12'>
+						<h1 class='menuss'>Buy 1 Get 1 Free</h1>
+					</div>
+					<div class='col-md-12 col-xs-12'>
+						<p class='text-left ker' style="font-size:16px; margin-top:15px; letter-spacing:0.1em;">
+							The menu takes a contemporary twist on classic, home-style cooking with moderate prices. Seasoned Belgian Chef Benoit Claeys prepares a diverse range of dishes which include not only bistro favorites such as Salad Nicoise, Roast Chicken Rotisserie and Steak Frites, but also European-style curry, a selection of simple but hearty pasta dishes, even Asian inspired Oriental Chicken Salad that brings the palate a little closer to home. And then too are the desserts: a variety of tarts with the freshest tropi-cal fruits in season, and of course, Chef Benoit Claeys' leg-endary Mille-Feuille.
+						</p>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id='menu4' class='tanda'></div>
+	</div>
+	<div class='row last'>
+				<br>
+
+
+				<h2 class='text-center aboutus'>our team</h2>
+				<div class='col-md-12	 center-block' style="float:none;">
+					<br>
+					<br class='hidden-xs hidden-sm'>
+					<div class='ourteamatas row'>
+						<div class='col-md-offset-1 col-md-3 col-xs-8 col-xs-offset-2'>
+							<img src="img/image1 (2).jpg" alt="..." class="center-block img-responsive img-circle"/>
+						</div>
+
+						<div class='col-md-4 col-xs-12 text-center founder'>
+							<h1 class='namateamfirst'>Vincenzo Ziko</h1>
+							<h3 class='jabatan'>FOUNDER / GENERAL MANAGER</h3>
+						</div>
+						<div class='col-md-4 col-xs-12 para'>
+							<p class='text-center pulls'>
+							Vincenzo Zilko is our full time general manager. He creates the concept of Raisin Restaurant together with his partner Mr. Aurick (currently fulltime restaurant manager). He is responsible of whole Raisin Restaurant and Catering, and focus on creating marketing plan, quality control, developing new menu, and running the whole business.
+							</p>
+							<br>
+							<p class='text-center pulls'>
+							With his background as Industrial Engineer, he can maximize the efficiency and effectivity of the kitchen system. Minimalizing waste and creating the most efficient serving system while also conducting the great ambience in the dining room is what he is capable of. Based on his experience working in big city such as Jakarta and Bandung, he knows what it has to do to create the hypest restaurant in town.
+							</p>
+						</div>
+					</div>
+					<div class='ourteambawah row visible-md visible-lg' style="color:#494A4A;">
+							<div class='col-md-4 col-xs-12 bagian-putih'>
+								<p class='text-center'>
+								Vincenzo Zilko is our full time general manager. He creates the concept of Raisin Restaurant together with his partner Mr. Aurick (currently fulltime restaurant manager). He is responsible of whole Raisin Restaurant and Catering, and focus on creating marketing plan, quality control, developing new menu, and running the whole business.
+								</p>
+								<br>
+								<p class='text-center'>
+								With his background as Industrial Engineer, he can maximize the efficiency and effectivity of the kitchen system. Minimalizing waste and creating the most efficient serving system while also conducting the great ambience in the dining room is what he is capable of. Based on his experience working in big city such as Jakarta and Bandung, he knows what it has to do to create the hypest restaurant in town.
+								</p>
+							</div>
+
+						<div class='col-md-4 text-center founder'>
+							<h1 class='namateamfirst'>Vincenzo Ziko</h1>
+							<h3 class='jabatan'>FOUNDER / GENERAL MANAGER</h3>
+						</div>
+							<div class='col-md-offset-1 col-md-3'>
+								<img src="img/image1 (2).jpg" alt="..." class="img-responsive img-circle center-block"/>
+							</div>
+					</div>
+					<div class='ourteambawah row visible-xs visible-sm'>
+
+
+
+
+							<div class='col-md-offset-1 col-md-3 col-xs-8 col-xs-offset-2'>
+								<img src="img/image1 (2).jpg" alt="..." class="img-responsive img-circle center-block" style="margin-top:30px;" />
+							</div>
+							<div class='col-md-4 col-xs-12 text-center founder'  style="margin-top:30px;">
+								<h1 class='namateamfirst'>Vincenzo Ziko</h1>
+								<h3 class='jabatan'>FOUNDER / GENERAL MANAGER</h3>
+							</div>
+							<div class='col-md-4 col-xs-12 bagian-putih para'>
+								<p class='text-center'>
+								Vincenzo Zilko is our full time general manager. He creates the concept of Raisin Restaurant together with his partner Mr. Aurick (currently fulltime restaurant manager). He is responsible of whole Raisin Restaurant and Catering, and focus on creating marketing plan, quality control, developing new menu, and running the whole business.
+								</p>
+								<br>
+								<p class='text-center'>
+								With his background as Industrial Engineer, he can maximize the efficiency and effectivity of the kitchen system. Minimalizing waste and creating the most efficient serving system while also conducting the great ambience in the dining room is what he is capable of. Based on his experience working in big city such as Jakarta and Bandung, he knows what it has to do to create the hypest restaurant in town.
+								</p>
+							</div>
+					</div>
+
+
+				</div>
+
+		</div>
+
+		<div class='row generalteam'>
+				<h1 class='text-center'>general team raisin</h1>
+				<img src="img/image4.jpg" class='img-responsive center-block col-md-7 col-xs-12' style="float:none;">
+
+				<p class='text text-center col-md-6 center-block' style="float:none;">The success between Raisin Resto & Kitchen is also a general team success. We have three division, as Kitchen division, Bar Division, and Server division. Each has fundamental part to create the perfect harmonious working ambience. And this is just the beginning..! Keep looking us and we will always try to be better. Thanks</p>
+				<br>
+				<br>
+				<div id='menu5' class='tanda'></div>
+		</div>
+		<div class='row'>
+			<div class='heade'>
+				<h2 class='text-center'>did you know about this</h2>
+			</div>
+		</div>
+		<div class='row'>
+
+			<div id='mycarousel' class="carousel slide" data-ride="carousel">
+				<div class='col-md-12 col-xs-12 col-sm-12' style="background:black;">
+				<h1 class='text-center' style="color:#FFFFFF;">fun facts about smoothie bowl</h1>
+				</div>
+				<div class="carousel-inner" role="listbox">
+
+					<div class='item active'>
+						<div class='headegalery col-md-12 col-xs-12'>
+							<div class='gallery '>
+
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 12-03-16 09.12.14.jpg" class='img-responsive center-block'>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 16-03-16 15.06.07.jpg" class='img-responsive center-block '>
+									</div>
+								</div>
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 14-03-16 19.00.02.jpg" class='img-responsive center-block '>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 28-02-16 18.32.00.jpg" class='img-responsive center-block'>
+									</div>
+								</div>
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 24-03-16 14.43.30.png" class='img-responsive center-block '>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 28-02-16 19.18.43.jpg" class='img-responsive center-block '>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class='item'>
+						<div class='headegalery col-md-12 col-xs-12'>
+							<div class='gallery'>
+
+
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 12-03-16 09.12.14.jpg" class='img-responsive center-block'>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 16-03-16 15.06.07.jpg" class='img-responsive center-block'>
+									</div>
+								</div>
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 14-03-16 19.00.02.jpg" class='img-responsive center-block'>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 28-02-16 18.32.00.jpg" class='img-responsive center-block'>
+									</div>
+								</div>
+								<div class='col-md-4 col-xs-4 col-sm-4'>
+									<div class='row'>
+										<img src="img/Photo 24-03-16 14.43.30.png" class='img-responsive center-block'>
+									</div>
+									<br>
+									<div class='row'>
+										<img src="img/Photo 28-02-16 19.18.43.jpg" class='img-responsive center-block'>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+			</div>
+		</div>
+
+		<div class=''>
+			<br>
+			<br>
+			<h1 class='text-center hunggry'>Hungry ? contact us</h1>
+
+
+
+			<h1 class='text-center eres'> find us here</h1>
+      <div class="col-md-6 col-md-offset-3 map" id='googleMap'>
+
+      </div>
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class='text-center eres'>reservation</h2>
+
+				<h4 class='text-center eres'>call : 081-326-525-802 / Alvin</h4>
+      </div>
+
+
+
+
+
+
+		</div>
+	</div>
+</body><script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDzKP8d5VwA8g6mJjz8i8o57Mz-qZaMtfU"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(-7.7817075,110.3786594),
+    zoom:19,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  var latlng = new google.maps.LatLng(-7.7802314,110.377496);
+  var marker = new google.maps.Marker({
+        position: latlng,
+        title: 'new marker',
+        draggable: true,
+        map: map
+    });
+    map.setCenter(marker.getPosition())
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.menuatas').addClass('fixed');
+    } else {
+        $('.menuatas').removeClass('fixed');
+    }
+});
+</script>
+
+
+</html>
